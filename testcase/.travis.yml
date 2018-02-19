@@ -1,3 +1,10 @@
 linguage: node_js
 node_js:
   - "stable"
+install:
+    - npm install --global mocha
+    - npm install --global chai
+    - npm install -g selenium-webdriver
+    - npm install chromedriver
+script:
+  - mocha
