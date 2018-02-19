@@ -1,4 +1,4 @@
 linguage: node_js
-rvm:
+node_js:
   - "stable"
-script: appTest.js
+script: ../appTest
