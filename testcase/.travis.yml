@@ -6,5 +6,3 @@ install:
     - npm install --global chai
     - npm install -g selenium-webdriver
     - npm install chromedriver
-script:
-  - mocha
